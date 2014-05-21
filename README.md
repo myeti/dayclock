@@ -31,7 +31,7 @@ $clock->at([
 echo $clock->time();
 ```
 
-Examples :
+### Exemples
 
 - Lundi 11:40 -> bientôt Lundi et demi
 - Jeudi 09:30 -> Jeudi et quart passé

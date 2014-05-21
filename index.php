@@ -1,6 +1,7 @@
-# DayClock
+<?php
 
-```php
+require 'DayClock.php';
+
 $clock = new DayClock('Il est {time}');
 
 $clock->days([
@@ -29,4 +30,3 @@ $clock->at([
 ]);
 
 echo $clock->time();
-```

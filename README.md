@@ -30,3 +30,10 @@ $clock->at([
 
 echo $clock->time();
 ```
+
+Examples :
+
+- Lundi 11:40 -> bientôt Lundi et demi
+- Jeudi 09:30 -> Jeudi et quart passé
+- Mardi 18:15 -> Mercredi moins le quart
+- etc...

@@ -90,15 +90,13 @@ class DayClock
         }
 
         // format text
+        $display = str_replace('{text}', $display, $this->format);
         $display = str_replace('{h}', $hours, $display);
         $display = str_replace('{m}', $minutes, $display);
         $display = str_replace('{d}', $today, $display);
         $display = str_replace('{d+1}', $tomorrow, $display);
 
-        // format global
-        $global = str_replace('{time}', $display, $this->format);
-
-        return $global;
+        return $display;
     }
 
 } 

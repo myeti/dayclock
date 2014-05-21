@@ -1,7 +1,7 @@
 # DayClock
 
 ```php
-$clock = new DayClock('Il est {time}');
+$clock = new DayClock('Il est {text}');
 
 $clock->days([
     1 => 'Lundi',
